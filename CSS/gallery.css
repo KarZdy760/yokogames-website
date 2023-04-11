@@ -1,0 +1,28 @@
+section#wrapper {
+  width: 100%;
+}
+
+.introduction {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction h1{
+  text-align: center;
+  width: 90%;
+}
+
+.photos {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo {
+  width: 300px;
+}
