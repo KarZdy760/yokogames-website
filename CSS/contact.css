@@ -20,8 +20,8 @@ section#wrapper {
   content: "";
   position: absolute;
   bottom: 0;
-  width: 50%;
-  border: 1px solid purple;
+  width: 30%;
+  border-bottom: 1px solid purple;
 }
 
 .title {
