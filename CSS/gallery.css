@@ -2,16 +2,27 @@ section#wrapper {
   width: 100%;
 }
 
+.introduction::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  border-bottom: 2px solid rgb(248, 31, 248);
+}
+
 .introduction {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .introduction h1{
   text-align: center;
   width: 90%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .photos {
@@ -21,8 +32,12 @@ section#wrapper {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .photo {
   width: 300px;
+  margin: 15px;
+  border: 2px solid black;
 }
