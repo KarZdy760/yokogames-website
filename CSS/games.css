@@ -31,7 +31,7 @@ section#wrapper {
   position: absolute;
   bottom: 0;
   width: 50%;
-  border: 1px solid rgb(248, 31, 248);
+  border-bottom: 2px solid rgb(248, 31, 248);
 }
 
 

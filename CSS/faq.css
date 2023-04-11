@@ -24,7 +24,7 @@ section#wrapper {
   bottom: 0px;
   height: 1px;
   width: 40%;
-  border-bottom: 2px solid purple;
+  border-bottom: 2px solid rgb(248, 31, 248);
 }
 
 .entry {

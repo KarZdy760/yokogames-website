@@ -21,7 +21,7 @@ section#wrapper {
   position: absolute;
   bottom: 0;
   width: 30%;
-  border-bottom: 1px solid purple;
+  border-bottom: 2px solid rgb(248, 31, 248);
 }
 
 .title {
