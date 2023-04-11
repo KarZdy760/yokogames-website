@@ -71,18 +71,20 @@ section#wrapper {
 
   .picture {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
   }
   
-  .pic {
-    width: 96%;
-  }
-
-
   .photo {
     width: 100%;
     height: 300px;
     margin: 10px;
     padding: 0;
+    display: block;
   }
 }
