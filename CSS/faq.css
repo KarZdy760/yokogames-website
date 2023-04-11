@@ -24,7 +24,7 @@ section#wrapper {
   bottom: 0px;
   height: 1px;
   width: 40%;
-  border-bottom: 1px solid rgb(141, 141, 141);
+  border-bottom: 2px solid purple;
 }
 
 .entry {
@@ -35,6 +35,8 @@ section#wrapper {
   text-align: center;
   padding: 2rem;
 }
+
+
 
 .about-us {
   width: 100%;
@@ -138,5 +140,17 @@ section#wrapper {
     background-repeat: no-repeat;
     background-size: 1300px;
     background-position: center;
+  }
+
+  .entry {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .entry p{
+    font-size: 1.5rem;
+    width: 60%;
   }
 }
