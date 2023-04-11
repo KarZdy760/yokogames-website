@@ -41,3 +41,22 @@ section#wrapper {
   margin: 15px;
   border: 2px solid black;
 }
+
+@media (min-width: 800px) {
+  .introduction { 
+    margin-top: 80px;
+  }
+
+  .introduction h1 {
+    width: 65%;
+  }
+
+  .photos {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .photo {
+   width: 500px;
+  }
+}
