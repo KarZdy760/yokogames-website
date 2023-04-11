@@ -1,0 +1,253 @@
+p {
+  font-size: 20px;
+  color: gray;
+  padding-left: 15px
+}
+
+
+
+
+section#wrapper {
+  width: 100%;
+}
+
+
+
+.info-about-company {
+  width: 100%;
+}
+
+
+                         /* Types of eyetracking panel*/
+
+.types-of-eyetracking {
+  width: 100%;
+  position: relative;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+.main-headline {
+  text-align: center;
+  display: block;
+  padding-bottom: 25px;
+}
+
+
+.panels{
+  background: #360861;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 55px;
+}
+
+.text-inside-panels {
+  text-align: center;
+  line-height: 1.70;
+  font-weight: 300;
+  z-index: 1001;
+}
+
+.thumbnails {
+  position: relative;
+  text-align: center;
+}
+
+.headlines-thumbnails{
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+  z-index: 1001;
+}
+
+                               /* Cards Section */
+
+.employee-slide-section {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.cards {
+  position: relative;
+  background: rgb(54, 8, 97, 0.7);
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 55px;  
+}
+
+.profile-picture::before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+
+}
+
+.text-inside-cards {
+  font-weight: 500;
+  text-align: center;
+}
+
+.profile-picture {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.profile-img {
+  display: block;
+  width: 350px;
+  height: 280px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 2px solid black;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 2px;
+  bottom: -100px;
+}
+
+.slide-main-headline {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+                                        /*  FONTS  */
+
+.info-about-company h1{
+  padding-top: 110px;
+  padding-left: 10px;
+  font-size: 36px;
+}
+
+.undertext {
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: purple
+}
+
+.types-of-eyetracking h4{
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.types-of-eyetracking p{
+  font-size: 1.0rem;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.text-inside-cards h2 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.text-inside-cards p {
+  font-size: 1.4rem;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  color: whitesmoke;
+}
+
+.social-media-icons i{
+  font-size: 1.7rem;
+  color: black;
+}
+
+
+
+@media (min-width: 800px) {
+  .info-about-company {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 0px;
+  }
+
+  .types-of-eyetracking p{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    line-height: 1.9;
+  }
+
+  .types-of-eyetracking h4{
+    font-size: 1.4rem;
+  }
+
+  .slide-main-headline {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+
+  .headlines-thumbnails{
+    width: 600px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+}
+@media (min-width: 1200px) {
+  .types-of-eyetracking {
+    display: flex;
+    justify-content: center;
+    width: 100%
+  }
+
+  .panels{
+    display: flex;
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+  }
+
+  .headlines-thumbnails{
+    width: 380px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+
+  .main-headline{
+    display: block;
+    padding-bottom: 0px;
+    position: absolute;
+    margin-top: 0px;
+  }       
+  
+  .slide-main-headline {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+  }
+}
+
